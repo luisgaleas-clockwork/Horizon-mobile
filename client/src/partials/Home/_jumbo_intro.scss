@@ -1,0 +1,109 @@
+@media only screen and (min-width: 320px) {
+  .jumbo__bg {
+    background-color: #b00020;
+    margin: auto;
+  }
+  .jumbo-home {
+    background-color: #b00020;
+    height: 70vh;
+    width: 90%;
+    margin: auto;
+    overflow: show;
+    margin-bottom: 0;
+    border-radius: 0;
+    color: #e8e2da;
+    p {
+      margin-top: 5vh;
+    }
+
+    img {
+      margin-top: 5vh;
+      height: 225px;
+      width: 100%;
+      padding: 0;
+      transition: 1s;
+    }
+    // img:hover{
+    //     height:310px;
+    //     width:310px;
+    // }
+  }
+  .row {
+    margin: auto;
+  }
+  #Ac2,
+  #Ac3,
+  #Ac1 {
+    padding: 0;
+  }
+  #Ac2,
+  #Ac3 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .jumbo-home {
+    height: 40vh;
+    overflow: show;
+    p {
+      margin-top: 5vh;
+      font-size: 1.3em;
+    }
+
+    img {
+      height: 180px;
+      width: 180px;
+    }
+  }
+  .row {
+    margin-top: 1vh;
+  }
+  #Ac2,
+  #Ac3 {
+    display: block;
+  }
+  #Ac1,
+  #Ac2,
+  #Ac3 {
+    padding-right: 0;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .jumbo-home {
+    height: 35vh;
+    overflow: show;
+    p {
+      margin-top: 5vh;
+    }
+
+    img {
+      height: 220px;
+      width: 220px;
+    }
+    // img:hover{
+    //     height:310px;
+    //     width:310px;
+    // }
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .jumbo-home {
+    height: 65vh;
+    overflow: show;
+    p {
+      margin-top: 5vh;
+    }
+
+    img {
+      height: 300px;
+      width: 300px;
+    }
+    img:hover {
+      height: 310px;
+      width: 310px;
+    }
+  }
+  .row {
+    margin-top: 10vh;
+  }
+}

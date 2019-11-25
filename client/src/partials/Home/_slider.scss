@@ -1,0 +1,46 @@
+@media only screen and (min-width: 320px) {
+  .carousel-indicators {
+    display: none;
+  }
+  .slider__text {
+    color: white;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    h3 {
+      width: 60%;
+      margin-top: 5vh;
+    }
+  }
+  .carousel {
+    position: relative;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .slider__text {
+    h3 {
+      width: 60%;
+      margin-top: 5vh;
+    }
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .slider__text {
+    h3 {
+      width: 60%;
+      margin-top: 5vh;
+    }
+  }
+  .carousel-item img,
+  .slider__text {
+    height: 100vh;
+  }
+}
