@@ -1,0 +1,103 @@
+@media only screen and (min-width: 320px) {
+  body {
+    font-family: sans-serif;
+  }
+  #mainbox {
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.6s;
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 20px;
+    z-index: 1;
+    background: #b00020;
+    border-radius: 50%;
+    padding: 3px;
+  }
+  .mainbox__show {
+    margin-left: 300px;
+    display: none;
+  }
+  .menu__show {
+    width: 300px !important;
+  }
+  .sidemenu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 0px;
+    background-color: #222;
+    z-index: 10;
+    padding-top: 100px;
+    overflow-x: hidden;
+    transition: all 0.5s;
+    font-size: 25px;
+  }
+  .sidemenu a {
+    padding: 8px 8px 8px 64px;
+    text-decoration: none;
+    color: #999;
+    display: block;
+  }
+  .sidemenu a:hover {
+    color: white;
+  }
+  .closebtn {
+    position: absolute;
+    top: 0px;
+    right: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #mainbox {
+    font-size: 50px;
+  }
+  .sidemenu {
+    font-size: 60px;
+  }
+  .sidemenu a {
+    padding: 10px 10px 10px 64px;
+  }
+  .menu__show {
+    width: 500px !important;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .redirect{
+    display: flex;
+  }
+  .sidemenu {
+    position: fixed;
+    overflow-x: hidden;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    padding: 10px;
+    font-size: 1.5em;
+    a {
+      padding: 10px;
+      font-size: 0.8em;
+    }
+  }
+  #mainbox {
+    display: none;
+  }
+  .closebtn {
+    visibility: hidden;
+  }
+  .nav-link::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    background-color: white;
+    transition: width 500ms ease;
+  }
+  .nav-link:hover::after {
+    width: 100%;
+  }
+}

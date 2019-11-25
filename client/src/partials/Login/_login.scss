@@ -1,0 +1,41 @@
+@media only screen and (min-width: 320px) {
+  .auth {
+    padding-top: 5vh;
+    form {
+      height: 50vh;
+      justify-content: center;
+      margin: 5vh 0;
+    }
+
+    h1 {
+      font-size: 4em;
+      text-align: center;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px){
+.auth{
+    form{
+        width:75%;
+        margin:5vh auto;
+        height:50vh;
+    }
+    h1{
+        font-size: 6em;
+    }
+}
+}
+
+@media only screen and (min-width: 900px){
+    .auth{
+        padding: 15vh 0;
+        form{
+            width:40%;
+            height:55vh;
+        }
+        h1{
+            font-size: 6em;
+        }
+    }
+    }

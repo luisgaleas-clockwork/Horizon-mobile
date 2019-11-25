@@ -1,0 +1,87 @@
+//Utility SCSS
+@import "./partials/utility/reset";
+@import "./partials/utility/navbar";
+@import "./partials/utility/footer.scss";
+//Home page SCSS
+@import "./partials/Home/slider";
+@import "./partials/Home/jumbo_intro";
+@import "./partials/Home/feature";
+//Product SCSS
+@import "./partials/Products/product";
+@import "./partials/Products/button.scss";
+//Contact SCSS
+@import "./partials/Contact/form";
+//Auth
+@import "./partials/Login/login";
+//google fonts
+@import url("https://fonts.googleapis.com/css?family=Cabin|Oswald|Righteous&display=swap");
+//font-family: 'Righteous', cursive;
+//font-family: 'Oswald', sans-serif;
+//font-family: 'Cabin', sans-serif;
+
+.video_container{
+  width:fit-content;
+  margin:auto;
+  padding:20vh 0 10vh 0;
+  video{
+    box-shadow: 15px 15px 0px black;
+    outline: none;
+  }
+}
+@media only screen and (min-width: 320px) {
+  h1,
+  h2 {
+    font-family: "Righteous", cursive;
+    color:white;
+  }
+  h1,
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  h3,
+  h4,
+  button,
+  input {
+    font-family: "Cabin", sans-serif;
+  }
+  p {
+    font-size: 0.9em;
+    font-family: "Oswald", sans-serif;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  h1,
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+  h4 {
+    font-size: 1.3em;
+  }
+  form button,
+  form input,
+  textarea
+   {
+    height: 6vh;
+    font-size: 2em;
+  }
+  textarea{
+    height:20vh;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  h1,
+  h2 {
+    font-size: 5em;
+  }
+}

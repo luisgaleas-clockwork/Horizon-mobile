@@ -1,0 +1,134 @@
+@media only screen and (min-width: 320px) {
+  .form-main {
+    height: 100vh;
+  }
+  .form-bg {
+    height: 80vh;
+    padding-top: 20vh;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    background-color: #222;
+    border-radius: 10%;
+    height: 70vh;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    input {
+      margin-top: 3vh;
+      height: 10vh;
+      padding-left: 10px;
+      border-radius: 5px;
+    }
+    h1 {
+      text-align: center;
+      margin-top: 3vh;
+      color: white;
+    }
+    textarea {
+      margin-top: 3vh;
+      width: 100%;
+      height: 15vh;
+      border-radius: 5px;
+    }
+    button {
+      margin-top: 3vh;
+      width: 100%;
+      height: 10vh;
+      border-radius: 5px;
+      background-color: #b00020;
+      color: white;
+      border: none;
+    }
+  }
+  .comment_section {
+    background: #222;
+    width: 100%;
+    padding: 0px 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    p {
+      margin-top: 2vh;
+    }
+  }
+  .comments {
+    margin: 1.5vh 0vw;
+    padding: 10px;
+    background-color: #b00020;
+    border-radius: 5px;
+    width: 100%;
+    p {
+      padding-left: 30px;
+    }
+  }
+  h2 {
+    color: white;
+    padding-left: 10px;
+    padding-bottom: 2vh;
+  }
+  .contact-main {
+    background: linear-gradient(#b00020, #353535);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .form-main {
+    height: 65vh;
+  }
+  .form-bg {
+    padding: 150px;
+  }
+  form {
+    height: 50vh;
+    padding: 40px;
+    h1 {
+      margin-top: 1vh;
+    }
+  }
+  h2 {
+    text-align: center;
+    padding-top: 5vh;
+  }
+
+  .comments {
+    padding: 20px;
+    margin-top: 2vh;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .form-main {
+    height: 90vh;
+  }
+  form {
+    width: 40vw;
+    height: 90vh;
+    padding: 50px;
+    input {
+      margin-top: 3vh;
+    }
+    textarea {
+      resize: none;
+    }
+  }
+  .comment_section {
+    width: 60%;
+    border-radius: 5px;
+
+    p {
+      margin-top: 30px;
+    }
+  }
+  .comments {
+    padding: 20px;
+    margin-top: 30px;
+  }
+  h2 {
+    padding-top: 30vh;
+  }
+  .contact-main {
+    padding-bottom: 10vh;
+  }
+}

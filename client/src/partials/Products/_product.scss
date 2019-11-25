@@ -1,0 +1,141 @@
+@media only screen and (min-width: 320px) {
+  .product__container,
+  .product__image_container,
+  .product__text_container {
+    height: 250px;
+  }
+  .product__image_container {
+    background: red;
+    position: relative;
+    width: 100%;
+    box-shadow: 10px 10px 7px #222;
+    img {
+      height: 100%;
+      width: 100%;
+      z-index: 1;
+    }
+  }
+  .product__text_container {
+    color: white;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    h4 {
+      font-size: 1.2em;
+      margin-top: 5px;
+    }
+    p {
+      width: 80%;
+      margin-top: 5vh;
+    }
+  }
+
+  .product__container {
+    margin: auto;
+    width: 90%;
+  }
+  .cover__container {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  }
+  .card__container {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .product_heading {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    padding-top: 10vh;
+    color: white;
+    h3 {
+      width: 100%;
+      margin: auto;
+      margin-top: 3vh;
+    }
+  }
+  .display_text {
+    display: none;
+  }
+  .App {
+    background: linear-gradient(#b00020, #353535);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .product__container {
+    width: 60%;
+  }
+  .card__container {
+    width: 50%;
+    height: 45%;
+  }
+  .cover__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .product__text_container {
+    padding: 15px;
+    p {
+      margin-top: 2vh;
+    }
+  }
+  .product_heading {
+    padding: 100px;
+    p {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .cover__container {
+    margin: auto;
+    justify-content: space-evenly;
+    width: 90%;
+  }
+  .card__container {
+    height: 45%;
+    width: 30%;
+  }
+  .product__container {
+    width: 70%;
+    height: 30%;
+  }
+  .product__container:hover {
+    width: 70%;
+  }
+  .product__text_container {
+    opacity: 0;
+    transition: 1s;
+  }
+  .product__text_container:hover {
+    opacity: 1;
+  }
+  .display_text {
+    display: block;
+    text-align: center;
+    color: white;
+    margin-top: 2vh;
+    p {
+      margin-top: 5px;
+    }
+  }
+  .hide {
+    display: none;
+  }
+  .card__container {
+    p {
+      margin-top: 2vh;
+    }
+  }
+  .display_text {
+    margin-top: 3vh;
+  }
+}
