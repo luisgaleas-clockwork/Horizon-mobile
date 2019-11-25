@@ -19,6 +19,10 @@ If you still have a audit issue use ``` npm audit fix --force ``` to resolve the
 
 In the root of the folder use ``` npm run test ``` to run test.
 
+## Lighthouse audit
+
+![Product-page](./client/public/photos/audit-product.png)
+
 ## Built With
 
 * [Concurrently](https://www.npmjs.com/package/concurrently)
