@@ -19,7 +19,7 @@ If you still have a audit issue use ``` npm audit fix --force ``` to resolve the
 
 In the root of the folder use ``` npm run test ``` to run test.
 
-## Lighthouse audit
+## Lighthouse audit (Before)
 
 ![Product-page](./client/public/photos/audit-product.png)
 
