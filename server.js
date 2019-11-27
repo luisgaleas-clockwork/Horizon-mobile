@@ -3,8 +3,7 @@ require('dotenv').config()
 const express = require('express')
 const logger = require('morgan')
 const mongoose = require('mongoose')
-const path = require('path')
-const fs = require('fs')
+
 
 //routes
 const usersRoutes = require('./routes/index')
