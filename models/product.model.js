@@ -8,6 +8,7 @@ const productSchema = new Schema({
   img_url: { type: String, required: true },
   artist: { type: String, required: true },
   genre: { type: String, required: true },
+  price:{ type: String, required:true}
 }, {
   timestamps: true,
 });
