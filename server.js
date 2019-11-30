@@ -3,9 +3,7 @@ require('dotenv').config()
 const express = require('express')
 const logger = require('morgan')
 const mongoose = require('mongoose')
-var enforce = require('express-sslify');
 
-app.use(enforce.HTTPS({ trustProtoHeader: true }))
 
 
 //routes
