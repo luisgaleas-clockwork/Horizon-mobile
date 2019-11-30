@@ -1,5 +1,5 @@
 require('dotenv').config()
-
+const sslRedirect = require('heroku-ssl-redirect');
 const express = require('express')
 const logger = require('morgan')
 const mongoose = require('mongoose')
@@ -38,6 +38,8 @@ mongoose.connect(MONGODB_URI, { useNewUrlParser: true }, (err) => {
 
 app.use(express.static(`${__dirname}/client/build`))
 app.use(logger('dev'))
+// enable ssl redirect
+app.use(sslRedirect());
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }));
 
