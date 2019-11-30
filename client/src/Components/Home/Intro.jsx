@@ -12,7 +12,7 @@ const Intro = () => {
             <div className="row">
               <div className="col-md  " id="Ac1">
                 <Link to="/products"><img className="shadow p-3 mb-5 bg-white "
-                  src="http://foothillertech.com/student/webdesign/2017/fan4/projects/teamFan/assets/images/2014forestHillsdrive.jpg"
+                  src="https://m.media-amazon.com/images/I/71equNVChAL._SS500_.jpg"
                   alt="J.cole forest hill dr album" /></Link>
               </div>
               <div className="col-md" id="Ac2">
