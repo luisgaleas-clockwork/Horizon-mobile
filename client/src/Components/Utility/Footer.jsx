@@ -30,6 +30,7 @@ const Footer = () => {
           <a href="https://github.com/luisgaleas-clockwork"><i class="fab fa-github-square"></i></a>
         </div>
         <p>&copy; Horizon.io last updated Oct 3, 2019</p>
+        <a target="_blank" href="/icons/set/sunrise">Sunrise icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
       </div>
     </footer>
   )
