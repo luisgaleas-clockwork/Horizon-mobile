@@ -1,11 +1,18 @@
 {
   "name": "Horizon",
-  "short_name": "Images App",
-  "icons": {
-    "src": "/assets/images/icons8-sunrise-64.png",
-    "sizes": "64x64",
-    "type": "image/png"
-  },
+  "short_name": "Horizon",
+  "icons": [
+    {
+      "src": "assets/images/icons/Horizon-1-icon.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/icons/Horizon-1-icon.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "start_url": "/",
