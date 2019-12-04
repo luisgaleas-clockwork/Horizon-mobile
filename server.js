@@ -14,13 +14,7 @@ const app = express()
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost/auth'
 const PORT = process.env.PORT || 4000
 
-app.use((req, res, next) => {
-	// The 'x-forwarded-proto' check is for Heroku
-	if (!req.secure && req.get('x-forwarded-proto') !== 'https' && process.env.NODE_ENV === "production") {
-		return res.redirect('https://' + req.get('host') + req.url);
-	}
-	next();
-})
+
 
 // Serve up static assets (heroku)
 if (process.env.NODE_ENV === "production") {
@@ -41,6 +35,14 @@ mongoose.connect(uri, {
 mongoose.set('useCreateIndex', true)
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true }, (err) => {
 	console.log(err || `Connected to MongoDB.`)
+})
+
+app.use((req, res, next) => {
+	// The 'x-forwarded-proto' check is for Heroku
+	if (!req.secure && req.get('x-forwarded-proto') !== 'https' && process.env.NODE_ENV === "production") {
+		return res.redirect('https://' + req.get('host') + req.url);
+	}
+	next();
 })
 
 app.use(express.static(`${__dirname}/client/build`))
