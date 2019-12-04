@@ -21,6 +21,11 @@
       "src": "assets/images/icons/Horizon-1-icon.png",
       "sizes": "152x152",
       "type": "image/png"
+    },
+    {
+      "src": "assets/images/icons/Horizon-1-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
   "apple-touch-icon": [
