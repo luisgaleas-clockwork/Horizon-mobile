@@ -53,7 +53,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * [Tidal](https://tidal.com/)
 * [Apple-music](https://www.apple.com/apple-music//)
 
-<img width="200" alt="portfolio_view" src="./work/app.png">
-<img width="200" alt="portfolio_view" src="./work/loading.png">
-<img width="200" alt="portfolio_view" src="./work/home.png">
-<img width="200" alt="portfolio_view" src="./work/product.png">
+<img src="./work/app.png" alt="portfolio_view"  width="200"/>
+<img src="./work/loading.png" alt="portfolio_view" width="200"/>
+<img src="./work/home.png" alt="portfolio_view" width="200"/>
+<img src="./work/product.png" alt="portfolio_view" width="200"/>
