@@ -19,6 +19,9 @@ If you still have a audit issue use ``` npm audit fix --force ``` to resolve the
 
 ![Before](./work/audit-product.png)
 <img src="./work/app.png" alt="portfolio_view"  width="200"/>
+
+## Lighthouse Audit
+
 <img src="./work/loading.png" alt="portfolio_view" width="200"/>
 <img src="./work/home.png" alt="portfolio_view" width="200"/>
 <img src="./work/product.png" alt="portfolio_view" width="200"/>
