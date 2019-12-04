@@ -1,6 +1,6 @@
 # Horizon Beyond
 
-Fourth phase of ecommerce project "Horizon Beyond" using: 
+Sixth phase of ecommerce project "Horizon Beyond" using: 
 React.js, MongoDb, Node.js, Express, bcrypt, and morgan.
 
 ## Getting Started
@@ -15,9 +15,14 @@ You may run into a audit fix. Use ``` npm audit fix ``` to fix this issue.
 
 If you still have a audit issue use ``` npm audit fix --force ``` to resolve the previous issue.
 
-## Running test
+## Lighthouse Audit
 
-In the root of the folder use ``` npm run test ``` to run test.
+![Before](./work/audit-product.png)
+![After - App](./work/app.png)
+![After - loading](./work/loading.png)
+![After - home](./work/home.png)
+![After - product](./work/product.png)
+
 
 ## Built With
 
