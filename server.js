@@ -36,6 +36,13 @@ mongoose.connect(MONGODB_URI, { useNewUrlParser: true }, (err) => {
 	console.log(err || `Connected to MongoDB.`)
 })
 
+app.use((req, res, next) => {
+	// The 'x-forwarded-proto' check is for Heroku
+	if (!req.secure && req.get('x-forwarded-proto') !== 'https' && process.env.NODE_ENV === "production") {
+	  return res.redirect('https://' + req.get('host') + req.url);
+	}
+	next();
+  })
 
 app.use(express.static(`${__dirname}/client/build`))
 app.use(logger('dev'))
