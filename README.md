@@ -15,7 +15,7 @@ You may run into a audit fix. Use ``` npm audit fix ``` to fix this issue.
 
 If you still have a audit issue use ``` npm audit fix --force ``` to resolve the previous issue.
 
-## Lighthouse Audit[Beofre]
+## Lighthouse Audit[Before]
 
 ![Before](./work/audit-product.png)
 
