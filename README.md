@@ -18,10 +18,12 @@ If you still have a audit issue use ``` npm audit fix --force ``` to resolve the
 ## Lighthouse Audit
 
 ![Before](./work/audit-product.png)
-![After - App](./work/app.png)
-![After - loading](./work/loading.png)
-![After - home](./work/home.png)
-![After - product](./work/product.png)
+
+![After - App](./work/app.png){:height="50%" width="50%"}
+![After - loading](./work/loading.png){:height="50%" width="50%"}
+![After - home](./work/home.png){:height="50%" width="50%"}
+![After - product](./work/product.png){:height="50%" width="50%"}
+![After - mobile](./work/mobile.png)
 
 
 ## Built With
