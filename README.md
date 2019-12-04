@@ -19,10 +19,10 @@ If you still have a audit issue use ``` npm audit fix --force ``` to resolve the
 
 ![Before](./work/audit-product.png)
 
-![After - App](./work/app.png){:height="50%" width="50%"}
-![After - loading](./work/loading.png){:height="50%" width="50%"}
-![After - home](./work/home.png){:height="50%" width="50%"}
-![After - product](./work/product.png){:height="50%" width="50%"}
+![After - App](./work/app.png)
+![After - loading](./work/loading.png)
+![After - home](./work/home.png)
+![After - product](./work/product.png)
 ![After - mobile](./work/mobile.png)
 
 
@@ -52,3 +52,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * [Spotify](https://www.spotify.com/)
 * [Tidal](https://tidal.com/)
 * [Apple-music](https://www.apple.com/apple-music//)
+
+<img width="200" alt="portfolio_view" src="./work/app.png">
+<img width="200" alt="portfolio_view" src="./work/loading.png">
+<img width="200" alt="portfolio_view" src="./work/home.png">
+<img width="200" alt="portfolio_view" src="./work/product.png">
