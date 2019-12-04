@@ -15,15 +15,16 @@ You may run into a audit fix. Use ``` npm audit fix ``` to fix this issue.
 
 If you still have a audit issue use ``` npm audit fix --force ``` to resolve the previous issue.
 
-## Lighthouse Audit
+## Lighthouse Audit[Beofre]
 
 ![Before](./work/audit-product.png)
 
-## Lighthouse Audit
+## Lighthouse Audit [After]
 <img src="./work/app.png" alt="portfolio_view"  width="200"/>
 <img src="./work/loading.png" alt="portfolio_view" width="200"/>
 <img src="./work/home.png" alt="portfolio_view" width="200"/>
 <img src="./work/product.png" alt="portfolio_view" width="200"/>
+
 ![After - mobile](./work/mobile.png)
 
 
