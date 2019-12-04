@@ -4,13 +4,6 @@ const express = require('express')
 const logger = require('morgan')
 const mongoose = require('mongoose')
 
-app.use((req, res, next) => {
-	// The 'x-forwarded-proto' check is for Heroku
-	if (!req.secure && req.get('x-forwarded-proto') !== 'https' && process.env.NODE_ENV === "production") {
-	  return res.redirect('https://' + req.get('host') + req.url);
-	}
-	next();
-  })
 
 //routes
 const usersRoutes = require('./routes/index')
@@ -20,6 +13,14 @@ const app = express()
 
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost/auth'
 const PORT = process.env.PORT || 4000
+
+app.use((req, res, next) => {
+	// The 'x-forwarded-proto' check is for Heroku
+	if (!req.secure && req.get('x-forwarded-proto') !== 'https' && process.env.NODE_ENV === "production") {
+		return res.redirect('https://' + req.get('host') + req.url);
+	}
+	next();
+})
 
 // Serve up static assets (heroku)
 if (process.env.NODE_ENV === "production") {
